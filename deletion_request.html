@@ -2,49 +2,140 @@
 <html>
 <head>
 <title>MotoMachi Data Deletion</title>
+
 <style>
-body{
-  font-family: Arial, sans-serif;
-  margin:40px;
-  line-height:1.6;
-  max-width:800px;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  background: #0b1220;
+  color: #e5e7eb;
 }
-h1{
-  color:#222;
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
 }
-ul{
-  margin-left:20px;
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-top: 6px;
+}
+
+/* Card */
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+
+/* Text */
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #d1d5db;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #9ca3af;
+}
+
+.email {
+  color: #22c55e;
+  font-weight: 500;
 }
 </style>
+
 </head>
 
 <body>
 
-<h1>MotoMachi Data Deletion Request</h1>
+<div class="container">
 
-<p>MotoMachi allows users to delete their data and account at any time.</p>
+  <!-- Header -->
+  <div class="header">
+    <img src="moto_machi_logo.png" alt="MotoMachi Logo" class="logo">
+    <h1>MotoMachi</h1>
+    <div class="subtitle">Data Deletion Request</div>
+  </div>
 
-<h2>How to Delete Your Data</h2>
+  <!-- Section -->
+  <div class="card">
+    <p>MotoMachi allows users to delete their data and account at any time.</p>
+  </div>
 
-<ul>
-<li>Remove individual logs or records inside the app</li>
-<li>Delete your user profile through the app settings</li>
-<li>Request account deletion by contacting us via email</li>
-</ul>
+  <!-- Section -->
+  <div class="card">
+    <h2>How to Delete Your Data</h2>
+    <ul>
+      <li>Remove individual logs or records inside the app</li>
+      <li>Delete your user profile through the app settings</li>
+      <li>Request account deletion by contacting us via email</li>
+    </ul>
+  </div>
 
-<h2>What Happens After Deletion</h2>
+  <!-- Section -->
+  <div class="card">
+    <h2>What Happens After Deletion</h2>
+    <p>
+      When a user profile is deleted, all associated account information and
+      cloud-stored data including vehicle logs, ride journals, fuel entries,
+      and maintenance records are permanently removed.
+    </p>
+    <p><b>This action cannot be undone.</b></p>
+  </div>
 
-<p>When a user profile is deleted, all associated account information and
-cloud-stored data including vehicle logs, ride journals, fuel entries,
-and maintenance records are permanently removed.</p>
+  <!-- Contact -->
+  <div class="card">
+    <h2>Contact</h2>
+    <p>For data deletion requests or questions:</p>
+    <p class="email">hello.machilife@gmail.com</p>
+  </div>
 
-<p>This action cannot be undone.</p>
+  <!-- Footer -->
+  <div class="footer">
+    © MotoMachi
+  </div>
 
-<h2>Contact</h2>
-
-<p>For data deletion requests or questions, contact:</p>
-
-<p><b>hello.machilife@gmail.com</b></p>
+</div>
 
 </body>
 </html>
